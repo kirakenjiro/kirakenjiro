@@ -17,19 +17,20 @@ jobs:
       - name: Setting Up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8 # Install the python version required.
-          run: |
-            echo "\033[1;34mInstalling requirements."
-            python -m pip install --upgrade pip
-            if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-            echo "\033[1;34mInstalled requirements."
+          python-version: 3.8
+
+      - name: Installing Requirements
+        run: |
+          echo "Installing requirements."
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          echo "Installed requirements."
 
       - name: Updating_Stats # Runs program and updates stats.
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
         run: |
-          echo "\033[0;31mRunning Code_Stats_Chart.py as a test scenario."
-          python Code_Stats_Chart.py
-          echo "\033[0;32mRan Code_Stats_Chart.py as a test scenario."
-          
+          echo "Running Code_Stats_Chart.py as a test scenario."
+          python scripts/Code_Stats_Chart.py
+          echo "Ran Code_Stats_Chart.py as a test scenario."
