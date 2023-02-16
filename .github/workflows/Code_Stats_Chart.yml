@@ -1,0 +1,35 @@
+name: Code_Stats_Chart
+
+on:
+  schedule:
+    - cron: "00 00 * * *" # ! Runs at 00:00 UTC everyday.
+  workflow_dispatch: # ? Manual execution of action.
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checking Out Repo Contents
+        uses: actions/checkout@v2 # Checkout the repository content to github runner.
+
+      - name: Setting Up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 # Install the python version required.
+          run: |
+            echo "\033[1;34mInstalling requirements."
+            python -m pip install --upgrade pip
+            if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+            echo "\033[1;34mInstalled requirements."
+
+      - name: Updating_Stats # Runs program and updates stats.
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+        run: |
+          echo "\033[0;31mRunning Code_Stats_Chart.py as a test scenario."
+          python Code_Stats_Chart.py
+          echo "\033[0;32mRan Code_Stats_Chart.py as a test scenario."
+          
