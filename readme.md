@@ -8,7 +8,10 @@
 <h3 align="left">Look at my stats:</h3>
 
 <!-- Stats -->
-
+Other: <br>
+$\color{purple}{▆▆▆▆▆▆▆}\color{gray}{▅▅▅}$ 77% - 57 mins<br>
+Python: <br>
+$\color{purple}{▆▆}\color{gray}{▅▅▅▅▅▅▅▅}$ 23% - 17 mins<br>
 <!-- Stats -->
 
 <h3 align="left">Connect with me:</h3>
