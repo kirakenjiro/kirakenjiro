@@ -74,7 +74,7 @@ def main():
         LaTeX = "\n".join(LaTeX)
 
         # Get the repository object for the specified repository.
-        repo = git.get_repo("kirakenjiro/KiraKenjiro")
+        repo = git.get_repo("kirakenjiro/kirakenjiro")
 
         # Get the contents of the readme.md file in the main branch.
         readme = repo.get_contents("readme.md", ref="main")
