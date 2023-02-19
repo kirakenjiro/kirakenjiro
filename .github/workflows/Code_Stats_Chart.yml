@@ -32,5 +32,5 @@ jobs:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
         run: |
           echo "Running Code_Stats_Chart.py as a test scenario."
-          python scripts/Code_Stats_Chart.py $GIT_TOKEN $WAKATIME_API_KEY
+          python scripts/Code_Stats_Chart.py
           echo "Ran Code_Stats_Chart.py as a test scenario."
