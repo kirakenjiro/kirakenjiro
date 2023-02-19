@@ -1,14 +1,38 @@
 import requests
 from github import Github
 import logging
-import os
+import sys
 
 def main():
     # Declares tokens, keys and chart symbols for percentages.
+    # ? gitKey = Github personal access token.
+    # ? wakatimeAPI = Wakatime API key.
+    # ? chart = The chart symbols used for the LaTex chart.
+    # ? format = The format for the logging.
+
+    # Check if the correct number of arguments are passed.
+    # ? sys.argv[0] = The name of the script.
+    # ? sys.argv[1] = The Github PAT key.
+    # ? sys.argv[2] = The Wakatime API key.
+    try:
+        if len(sys.argv) != 3:
+            log = "Usage: python3 Code_Stats_Chart.py <github_pat> <wakatime_api_key>"
+            raise Exception(log)
+            sys.exit(1)
+        else:
+            githubPATKey= sys.argv[1]
+            wakatimeAPI= sys.argv[2]
+    except Exception as error:
+        logging.error(error)
+
     # ! This will expire every year from Jan 1st 2024 and will need resetting.
-    git = Github(os.environ['GIT_TOKEN'])
-    url = "https://wakatime.com/api/v1/users/current/stats/all_time?api_key={os.environ['WAKATIME_API_KEY']}"
+    # Casts the Github PAT key to a Github object.
+    gitPATKey = Github(gitPATKey)
+
+    # Set the chart symbols for the LaTeX chart.
     chart = "▅▅▅▅▅▅▅▅▅▅"
+
+    # Set the logging format and level.
     format = '%(asctime)s - %(levelname)s > %(message)s'
     logging.basicConfig(format=format, level=logging.INFO)
 
@@ -18,7 +42,7 @@ def main():
 
     # Request wakatime API and collect json data from 'WAKATIME_API_KEY'.
     try:
-        result = requests.get(url)
+        result = requests.get(wakatimeAPI)
         if result.status_code == 200:
             log = "Passed: Json was collected from the API."
             logging.info(log)
@@ -38,7 +62,7 @@ def main():
         logging.error(error)
 
     # Collect json data from 'WAKATIME_API_KEY'
-    jsonData = requests.get(url).json()
+    jsonData = requests.get(wakatimeAPI).json()
 
     # Returns a list of LaTeX languages.
     if "data" in jsonData:
@@ -74,7 +98,7 @@ def main():
         LaTeX = "\n".join(LaTeX)
 
         # Get the repository object for the specified repository.
-        repo = git.get_repo("kirakenjiro/kirakenjiro")
+        repo = gitPATKey.get_repo("kirakenjiro/kirakenjiro")
 
         # Get the contents of the readme.md file in the main branch.
         readme = repo.get_contents("readme.md", ref="main")
