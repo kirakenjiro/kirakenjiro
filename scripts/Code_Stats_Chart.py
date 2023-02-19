@@ -1,7 +1,7 @@
 import requests
 from github import Github
 import logging
-import sys
+import os
 
 def main():
     # Declares tokens, keys and chart symbols for percentages.
@@ -10,20 +10,8 @@ def main():
     # ? chart = The chart symbols used for the LaTex chart.
     # ? format = The format for the logging.
 
-    # Check if the correct number of arguments are passed.
-    # ? sys.argv[0] = The name of the script.
-    # ? sys.argv[1] = The Github PAT key.
-    # ? sys.argv[2] = The Wakatime API key.
-    try:
-        if len(sys.argv) != 3:
-            log = "Usage: python3 Code_Stats_Chart.py <github_pat> <wakatime_api_key>"
-            raise Exception(log)
-            sys.exit(1)
-        else:
-            githubPATKey= sys.argv[1]
-            wakatimeAPI= sys.argv[2]
-    except Exception as error:
-        logging.error(error)
+    githubPATKey= os.environ['GITHUB_PAT_KEY']
+    wakatimeAPI= os.environ['WAKATIME_API_KEY']
 
     # ! This will expire every year from Jan 1st 2024 and will need resetting.
     # Casts the Github PAT key to a Github object.
