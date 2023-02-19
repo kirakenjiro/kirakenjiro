@@ -10,7 +10,7 @@ def main():
     # ? chart = The chart symbols used for the LaTex chart.
     # ? format = The format for the logging.
 
-    githubPATKey= os.environ['GITHUB_PAT_KEY']
+    githubPATKey= os.environ['GIT_PAT_KEY']
     wakatimeAPI= os.environ['WAKATIME_API_KEY']
 
     # ! This will expire every year from Jan 1st 2024 and will need resetting.
