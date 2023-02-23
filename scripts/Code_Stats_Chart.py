@@ -11,7 +11,7 @@ def main():
     # ? format = The format for the logging.
 
     githubPATKey= os.environ['GIT_PAT_KEY']
-    wakatimeAPI= "https://wakatime.com/api/v1/users/current/stats/all_time?api_key={}".format(os.environ['WAKATIME_API_KEY'])
+    wakatimeAPI= "https://wakatime.com/api/v1/users/current/stats/all_time?api_key=waka_bee20f26-07dc-44a8-95a1-66ed05002806"
 
     # ! This will expire every year from Jan 1st 2024 and will need resetting.
     # Casts the Github PAT key to a Github object.
