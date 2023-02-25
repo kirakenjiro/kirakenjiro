@@ -10,8 +10,9 @@ def main():
     # ? chart = The chart symbols used for the LaTex chart.
     # ? format = The format for the logging.
 
-    githubPATKey= "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"
-    wakatimeAPI= "https://wakatime.com/api/v1/users/current/stats/all_time?api_key=waka_bee20f26-07dc-44a8-95a1-66ed05002806"
+    githubPATKey = "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"
+    # wakatimeAPI= "https://wakatime.com/api/v1/users/current/stats/all_time?api_key={}".format(os.environ['WAKATIME_API_KEY'])
+    wakatimeAPI = "https://wakatime.com/api/v1/users/current/stats/all_time?api_key=waka_029f1efa-9eba-4279-b4a1-92aadde8edcc"
 
     # ! This will expire every year from Jan 1st 2024 and will need resetting.
     # Casts the Github PAT key to a Github object.
