@@ -10,7 +10,6 @@
 <!-- Stats -->
 
 <!-- Stats -->
-kjhgkjhgkjhgkjhgkjhg
 
 <h3 align="left">Connect with me:</h3>
 Kira#1886
