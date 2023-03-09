@@ -8,5 +8,7 @@ JSON: <br>
 $\color{purple}{▆}\color{gray}{▅▅▅▅▅▅▅▅▅}$ 16% - 1 hr 30 mins<br>
 Other: <br>
 $\color{purple}{▆}\color{gray}{▅▅▅▅▅▅▅▅▅}$ 10% - 57 mins<br>
+Markdown: <br>
+$\color{purple}{}\color{gray}{▅▅▅▅▅▅▅▅▅▅}$ 0% - 0 secs<br>
 <!-- Stats -->
 footer
