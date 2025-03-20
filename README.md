@@ -11,3 +11,32 @@
 
 > [!IMPORTANT]
 > I am not accepting new commissions at this time. All commission services will remain closed until further notice. Thank you for your understanding.
+
+<div style="display:flex; align-items:center; gap:20px;">
+  <!-- Image Section -->
+  <div>
+    <img align="left" src="https://placehold.co/400x400" alt="Avatar"/>
+  </div>
+
+  <!-- Text Section -->
+  <div>
+    <pre style="background:#1e1e2e; color:#cdd9e5; padding:20px; border-radius:8px; font-size:14px;">
+kirakenjiro@github
+
+----
+
+OS: Windows 11 x86_64 | NixOS Plasma 24.11
+Shell: Powershell | Bash
+Pronouns: He/Him
+Location: United Kingdom
+Languages: Node.js / TS, JavaScript,
+           HTML, CSS,
+           Kotlin, Bash
+Learning: C#, Kotlin
+          Python, haskell
+Hobbies: Tech, Music, Entertainment Production
+Email: kira@kenjiro.dev
+Discord: KiraKenjiro
+    </pre>
+  </div>
+</div>
