@@ -15,7 +15,7 @@
 <div style="display:flex; align-items:center; gap:20px;">
   <!-- Image Section -->
   <div>
-    <img align="left" src="https://placehold.co/400x400" alt="Avatar"/>
+    <img align="left" src="https://placehold.co/410x410" alt="Avatar"/>
   </div>
 
   <!-- Text Section -->
@@ -29,14 +29,127 @@ OS: Windows 11 x86_64 | NixOS Plasma 24.11
 Shell: Powershell | Bash
 Pronouns: He/Him
 Location: United Kingdom
-Languages: Node.js / TS, JavaScript,
-           HTML, CSS,
-           Kotlin, Bash
-Learning: C#, Kotlin
-          Python, haskell
+Languages:
+Node.js / TS, JavaScript,
+HTML, CSS,
+Kotlin, Bash
+Learning:
+C#, Kotlin
+Python, haskell
 Hobbies: Tech, Music, Entertainment Production
 Email: kira@kenjiro.dev
 Discord: KiraKenjiro
     </pre>
   </div>
+</div>
+
+<div align="center" width="100%">
+  <table width="100%" border="0" style="border-collapse: collapse; margin: 0 auto;">
+    <tr>
+      <th width="33%" align="center">
+        <h3>📦 New Repositories</h3>
+      </th>
+      <th width="33%" align="center">
+        <h3>📝 New Blogs</h3>
+      </th>
+      <th width="33%" align="center">
+        <h3>📚 New Guides</h3>
+      </th>
+    </tr>
+    <tr>
+      <td width="33%" align="center" valign="top">
+        <a href="#" style="text-decoration: none;">
+          <div align="center" style="background: #1e1e2e; padding: 12px; margin: 6px; border-radius: 6px; min-height: 180px;">
+            <img src="https://placehold.co/250x150" style="border-radius: 6px; max-width: 100%;">
+            <br>
+            <strong style="color: #cdd9e5;">Lorem ipsum dolor sit amet</strong>
+            <br>
+            <p style="color: #8b949e;">Consectetur adipiscing elit, sed do eiusmod tempor</p>
+          </div>
+        </a>
+        <hr style="background-color: #353941; border: 0; height: 1px; margin: 4px 0;">
+        <a href="#" style="text-decoration: none;">
+          <div align="center" style="background: #1e1e2e; padding: 12px; margin: 6px; border-radius: 6px; min-height: 180px;">
+            <img src="https://placehold.co/250x150" style="border-radius: 6px; max-width: 100%;">
+            <br>
+            <strong style="color: #cdd9e5;">Ut enim ad minim veniam</strong>
+            <br>
+            <p style="color: #8b949e;">Quis nostrud exercitation ullamco laboris nisi</p>
+          </div>
+        </a>
+        <hr style="background-color: #353941; border: 0; height: 1px; margin: 4px 0;">
+        <a href="#" style="text-decoration: none;">
+          <div align="center" style="background: #1e1e2e; padding: 12px; margin: 6px; border-radius: 6px; min-height: 180px;">
+            <img src="https://placehold.co/250x150" style="border-radius: 6px; max-width: 100%;">
+            <br>
+            <strong style="color: #cdd9e5;">Duis aute irure dolor</strong>
+            <br>
+            <p style="color: #8b949e;">Reprehenderit in voluptate velit esse cillum</p>
+          </div>
+        </a>
+      </td>
+      <td width="33%" align="center" valign="top">
+        <a href="#" style="text-decoration: none;">
+          <div align="center" style="background: #1e1e2e; padding: 12px; margin: 6px; border-radius: 6px; min-height: 180px;">
+            <img src="https://placehold.co/250x150" style="border-radius: 6px; max-width: 100%;">
+            <br>
+            <strong style="color: #cdd9e5;">Excepteur sint occaecat</strong>
+            <br>
+            <p style="color: #8b949e;">Cupidatat non proident, sunt in culpa qui</p>
+          </div>
+        </a>
+        <hr style="background-color: #353941; border: 0; height: 1px; margin: 4px 0;">
+        <a href="#" style="text-decoration: none;">
+          <div align="center" style="background: #1e1e2e; padding: 12px; margin: 6px; border-radius: 6px; min-height: 180px;">
+            <img src="https://placehold.co/250x150" style="border-radius: 6px; max-width: 100%;">
+            <br>
+            <strong style="color: #cdd9e5;">Sed ut perspiciatis unde</strong>
+            <br>
+            <p style="color: #8b949e;">Omnis iste natus error sit voluptatem</p>
+          </div>
+        </a>
+        <hr style="background-color: #353941; border: 0; height: 1px; margin: 4px 0;">
+        <a href="#" style="text-decoration: none;">
+          <div align="center" style="background: #1e1e2e; padding: 12px; margin: 6px; border-radius: 6px; min-height: 180px;">
+            <img src="https://placehold.co/250x150" style="border-radius: 6px; max-width: 100%;">
+            <br>
+            <strong style="color: #cdd9e5;">Nemo enim ipsam</strong>
+            <br>
+            <p style="color: #8b949e;">Voluptatem quia voluptas sit aspernatur</p>
+          </div>
+        </a>
+      </td>
+      <td width="33%" align="center" valign="top">
+        <a href="#" style="text-decoration: none;">
+          <div align="center" style="background: #1e1e2e; padding: 12px; margin: 6px; border-radius: 6px; min-height: 180px;">
+            <img src="https://placehold.co/250x150" style="border-radius: 6px; max-width: 100%;">
+            <br>
+            <strong style="color: #cdd9e5;">At vero eos et accusamus</strong>
+            <br>
+            <p style="color: #8b949e;">Et iusto odio dignissimos ducimus qui</p>
+          </div>
+        </a>
+        <hr style="background-color: #353941; border: 0; height: 1px; margin: 4px 0;">
+        <a href="#" style="text-decoration: none;">
+          <div align="center" style="background: #1e1e2e; padding: 12px; margin: 6px; border-radius: 6px; min-height: 180px;">
+            <img src="https://placehold.co/250x150" style="border-radius: 6px; max-width: 100%;">
+            <br>
+            <strong style="color: #cdd9e5;">Nam libero tempore</strong>
+            <br>
+            <p style="color: #8b949e;">Soluta nobis est eligendi optio</p>
+          </div>
+        </a>
+        <hr style="background-color: #353941; border: 0; height: 1px; margin: 4px 0;">
+        <a href="#" style="text-decoration: none;">
+          <div align="center" style="background: #1e1e2e; padding: 12px; margin: 6px; border-radius: 6px; min-height: 180px;">
+            <img src="https://placehold.co/250x150" style="border-radius: 6px; max-width: 100%;">
+            <br>
+            <strong style="color: #cdd9e5;">Temporibus autem quibusdam</strong>
+            <br>
+            <p style="color: #8b949e;">Et aut officiis debitis aut rerum</p>
+          </div>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
