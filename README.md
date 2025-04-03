@@ -18,9 +18,10 @@
   </p>
 </div>
 
-> [!IMPORTANT] > I am not accepting new commissions at this time. All commission
-services will remain closed until further notice. Thank you for your
-understanding.
+> [!IMPORTANT]  
+> I am not accepting new commissions at this time.
+> All commission services will remain closed until further notice.
+> Thank you for your understanding.
 
 <div style="display: flex; align-items: center; gap: 20px">
   <!-- Image Section -->
