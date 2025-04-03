@@ -26,7 +26,7 @@
 <div style="display: flex; align-items: center; gap: 20px">
   <!-- Image Section -->
   <div>
-    <img align="left" src="./assets/images/coverart.jpg" alt="Avatar" width="475" height="388"/>
+    <img align="left" src="./assets/images/coverart.jpg" alt="Avatar" width="465" height="368"/>
   </div>
   <!-- Text Section -->
   <div>
