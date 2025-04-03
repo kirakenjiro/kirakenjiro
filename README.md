@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://placehold.co/1544x500" alt="Banner" width="100%" />
+  <img src="./assets/images/banner.png" alt="Banner" width="100%" />
 </div>
 
 <div align="center">
@@ -25,7 +25,7 @@ understanding.
 <div style="display: flex; align-items: center; gap: 20px">
   <!-- Image Section -->
   <div>
-    <img align="left" src="https://placehold.co/410x410" alt="Avatar" />
+    <img align="left" src="./assets/images/coverart.jpg" alt="Avatar" width="410" height="410"/>
   </div>
   <!-- Text Section -->
   <div>
