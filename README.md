@@ -5,7 +5,7 @@
 <div align="center">
   <p style="font-size: 16px; margin: 20px 10% 40px 10%">
     👋 Hi there! I'm Kira, a
-    <strong>Full-Stack Developer & Systems Infrastructure Engineer</strong> with
+    <strong>Half-Stack Developer & Systems Infrastructure Engineer</strong> with
     a passion for crafting robust technical solutions. I specialize in
     <strong>Linux systems optimization</strong>,
     <strong>Node.js development</strong>, and
@@ -541,20 +541,22 @@ Discord: KiraKenjiro
       <td style="padding: 10px; border: 1px solid #ddd">
         <div align="center">
           <img
-            src="https://placehold.co/100x100"
-            alt="CompTIA Security+"
+            src="http://cdn.kenjiro.dev/s/D3ktaMwfiJC2Ef9/preview"
+            alt="NinjaOne Certified Technician"
             style="border-radius: 8px; display: block; margin-bottom: 5px"
           />
-          <strong>CompTIA Security+</strong>
+          <strong>NinjaOne Certified Technician</strong>
+          <a href="https://academy.ninjaone.com/certificate/TBNNZo8j3g" title="Verify this certificate">NinjaOne Certified Technician</a>
         </div>
       </td>
       <td style="padding: 10px; border: 1px solid #ddd">
-        Demonstrates advanced knowledge in cybersecurity, including threat
-        management, risk mitigation, and securing network architecture. Shows
-        ability to handle core security responsibilities and implement
-        organizational security policies.
+        As a NinjaOne Certified Technician, I've demonstrated advanced proficiency
+        in deploying, configuring and managing the NinjaOne platform specifically
+        for managed service provider environments. This certification validates
+        my expertise in implementing automated monitoring, endpoint management,
+        patching, scripting, and remote support solutions to maintain IT infrastructures.
       </td>
-      <td style="padding: 10px; border: 1px solid #ddd">March 2022</td>
+      <td style="padding: 10px; border: 1px solid #ddd">Oct 2024</td>
       <td style="padding: 10px; border: 1px solid #ddd">Active</td>
     </tr>
     <!-- Certificate 2 -->
