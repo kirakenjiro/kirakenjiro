@@ -1,3 +1,5 @@
+# Note this page is outdated as I am currently focusing on other projects. FOSS is currently not a high priority. All my projects are closed source.
+
 <div align="center">
   <img src="./assets/images/banner.png" alt="Banner" width="100%" />
 </div>
